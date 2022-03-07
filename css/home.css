@@ -1,0 +1,235 @@
+/* ! General */
+* {
+  font-family: "Euclid Circular A", sans-serif;
+  box-sizing: border-box;
+}
+.green {
+  color: #43ba7f;
+}
+.bg-green {
+  background-color: #43ba7f;
+  color: #fff;
+}
+/* ! Header */
+#header {
+  background: url("../images/Rectangle\ 55.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  position: relative;
+}
+#header .navbar-dark .navbar-toggler-icon {
+  background-image: url("../images/menu\ 1.png");
+  background-size: 24px;
+}
+#header .nav-link {
+  color: #fff;
+}
+#header .nav-link:hover {
+  color: #43ba7f;
+}
+#header .nav-link:active {
+  color: #3ca772;
+}
+#header .btn-success {
+  background: #43ba7f;
+  border-radius: 24px;
+}
+#header .display-1 {
+  margin: 120px 5%;
+  font-weight: 500;
+}
+#header .display-1 span {
+  color: #ff8145;
+}
+#lemon-image {
+  width: 40px;
+  position: absolute;
+  top: 320px;
+  right: 10%;
+}
+#services .col-md-3 .card {
+  border: none;
+}
+/* ! Services Section */
+#services {
+  background-color: #fbf5f2;
+  padding-top: 160px;
+}
+/* ! Brands Section */
+#brands img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+/* ! Products Section */
+
+/* ! PROS Section */
+#pros {
+  padding-top: 2rem;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  display: flex;
+  background: #0d1118;
+}
+#pros::-webkit-scrollbar {
+  display: none;
+}
+#pros .box {
+  min-width: 176px;
+  max-width: 176px;
+  min-height: 320px;
+  box-sizing: content-box;
+  margin: 4rem 0.8rem;
+}
+#pros .card {
+  border: 1px solid gray;
+}
+#pros .position-absolute {
+  width: 100%;
+}
+#pros .box:first-child h4 {
+  transform: rotate(-90deg);
+  width: 320px;
+}
+/* ! Details Section */
+#details {
+  background-color: #0d1118;
+}
+#details .justify-content-md-start img {
+  width: 34px;
+  height: 16px;
+}
+#details .col-md-5 h5 {
+  transform: rotate(-90deg);
+}
+/* ! Statistics Section */
+#statistics {
+  background: #faf4e7;
+}
+#statistics .container {
+  max-width: 70%;
+}
+#statistics .card {
+  border-radius: 16px;
+  height: 100%;
+}
+#img-1 {
+  width: 30%;
+  bottom: -5%;
+  left: -12%;
+}
+#img-2 {
+  width: 35%;
+  top: 0;
+  right: -10%;
+}
+#img-3 {
+  z-index: 1;
+  width: 30%;
+  right: -10%;
+  top: -5%;
+}
+#img-4 {
+  width: 50px;
+  z-index: 10;
+  right: -20%;
+  top: 20%;
+}
+/* ! Blog Section */
+#blog .col-md-6 .card {
+  height: 100%;
+}
+#blog .col-md-6 .card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* ! Footer Section */
+#footer {
+  background: #0d1118;
+}
+.darkgray {
+  color: #3d4045;
+}
+#footer table td {
+  line-height: 2.5rem;
+}
+#inputEmail4,
+#inputSubmit {
+  border-radius: 16px;
+}
+#inputSubmit {
+  font-size: 14px;
+}
+#last-line {
+  color: lightgrey;
+}
+/* ! Media Query Section */
+
+/* ? For Mobile */
+@media only screen and (max-width: 768px) {
+  #header .img-fluid {
+    width: 90%;
+  }
+  #header {
+    height: 534px;
+  }
+  #details .justify-content-md-center img {
+    width: 68px;
+    height: 40px;
+  }
+}
+/* ? For Desktop */
+@media only screen and (min-width: 768px) {
+  #services {
+    padding-top: 312px;
+  }
+  #services .col-md-3 .card {
+    border-right: 1px solid gray;
+    border-radius: 0;
+    padding-bottom: 100px;
+  }
+  #services .col-md-3 .card-title {
+    font-weight: 600;
+  }
+  .container {
+    max-width: 1216px;
+  }
+  #header .navbar-brand img {
+    width: 48px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 3rem;
+  }
+  #header .display-1 {
+    margin: 140px 20% 60px;
+  }
+  #lemon-image {
+    width: 72px;
+    left: 10%;
+    top: 543px;
+  }
+  #statistics .container {
+    max-width: 65%;
+  }
+  #img-1 {
+    bottom: -12%;
+  }
+  /* #img-2 {
+  } */
+  #img-3 {
+    width: 20%;
+  }
+  #img-4 {
+    top: 100%;
+  }
+  #details .justify-content-md-start img {
+    width: 51px;
+    height: 24px;
+  }
+  #pros {
+    justify-content: center;
+  }
+}

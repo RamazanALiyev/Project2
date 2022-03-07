@@ -1,0 +1,89 @@
+* {
+  font-family: "Euclid Circular A", sans-serif;
+  box-sizing: border-box;
+}
+.green {
+  color: #43ba7f;
+}
+.bg-green {
+  background-color: #43ba7f;
+  color: #fff;
+}
+/* ! Header */
+#header .navbar-dark .navbar-toggler-icon {
+  background-image: url("../images/menu\ 1.png");
+  background-size: 24px;
+}
+#header .nav-link {
+  color: #000;
+}
+#header .nav-link:hover {
+  color: #56c18c;
+}
+#header .nav-link:active {
+  color: #3ca772;
+}
+#header .btn-success {
+  background: #43ba7f;
+  border-radius: 24px;
+}
+#header .display-1 {
+  margin: 120px 5%;
+  font-weight: 500;
+}
+#header .display-1 span {
+  color: #ff8145;
+}
+#lemon-image {
+  width: 40px;
+  position: absolute;
+  top: 320px;
+  right: 10%;
+}
+#services .col-md-3 .card {
+  border: none;
+}
+/* ! Main Content */
+#main-content .container {
+  max-width: 800px;
+}
+#inputSubmit:hover {
+  background: #56c18c;
+}
+#inputSubmit:active {
+  background: #3ca772;
+}
+/* ! Blog Section */
+#blog .col-md-6 .card {
+  height: 100%;
+}
+#blog .col-md-6 .card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* ! Footer Section */
+#footer {
+  background: #0d1118;
+}
+.darkgray {
+  color: #3d4045;
+}
+#footer table td {
+  line-height: 2.5rem;
+}
+#inputEmail4,
+#inputSubmit {
+  border-radius: 16px;
+}
+#inputSubmit {
+  font-size: 14px;
+}
+#last-line {
+  /* width: 100vw; */
+  color: lightgrey;
+}
+/* ! Media Queries */
+/* ? For Mobile */
+/* @media only screen and (max-width: 768px) {
+} */
